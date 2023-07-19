@@ -456,7 +456,61 @@ a {
     font-weight: 400;
     line-height: 40px;
 }
-.btn-3{
+
+.btn-3 {
     color: #FF42A5;
     margin-top: 40px;
+}
+
+/* icon sections styles here */
+.icon-section {
+    background: #ff42a508;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 60px;
+    gap: 25px;
+
+}
+
+.icon-item {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 80px;
+    border-radius: 48px;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+.icon-item:hover{
+    color: #FF42A5;
+    border: 2px solid #FF42A5;
+    outline: none;
+    background-color: transparent;
+}
+
+.icons-title {
+    margin-left: 16px;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+/* footer section */
+
+.footer{
+    margin-top: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #0B0223;
+    color:#fff;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
 }
