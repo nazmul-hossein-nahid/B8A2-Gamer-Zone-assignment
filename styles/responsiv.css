@@ -16,7 +16,8 @@
 
     .nav-bar,
     .menu-item,
-    .gamer-content {
+    .gamer-content,
+    .instantly-play-container {
         flex-direction: column;
     }
 
@@ -58,10 +59,13 @@
     .we-are-gamer{
         background:none;
     }
-    .gamer-text-content{
+    .gamer-text-content,
+    .play-text-container{
         text-align: center;
     }
-
+    .play-description{
+        margin: 0;
+    }
     /* online-games section */
     .card-item {
         grid-template-columns: repeat(1, 1fr);
@@ -79,7 +83,8 @@
 
     /* commone style */
     .nav-bar,
-    .gamer-content {
+    .gamer-content,
+    .instantly-play-container {
         flex-direction: column;
     }
 
@@ -115,7 +120,8 @@
     .we-are-gamer{
         background:none;
     }
-    .gamer-text-content{
+    .gamer-text-content,
+    .play-text-container{
         text-align: center;
     }
 
@@ -126,6 +132,8 @@
         width:80%;
         margin: auto;
     }
-    
+    .play-description{
+        margin: 0;
+    }
 
 }
