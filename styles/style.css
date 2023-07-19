@@ -86,7 +86,6 @@ a {
 .bannar {
     background-image: url('../images/Group\ 14.png');
     background-repeat: no-repeat;
-    margin-bottom: 100px;
 }
 
 .bannar-content {
@@ -105,7 +104,7 @@ a {
 }
 
 .bannar-text-title-2 {
-    font-size: 6rem;
+    font-size: 95px;
     font-weight: 800;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -148,99 +147,158 @@ a {
     width: 100%;
 }
 
-
-/* responsiv style here */
-
-/* for mobile media query */
-
-@media screen and (max-width:576px) {
-
-    /* commone */
-    .main-container {
-        max-width: 1140px;
-        margin: auto;
-    }
-
-    header {
-        padding: 0px 10px;
-    }
-
-    .nav-bar,
-    .menu-item {
-        flex-direction: column;
-    }
-
-    .bannar-content {
-        flex-direction: column-reverse;
-    }
-
-    /* nav section resposniv */
-    .nav {
-        box-shadow: none;
-    }
-
-    .menu {
-        margin: 32px 0px;
-    }
-
-    .menu li {
-        display: block;
-        text-align: center;
-        margin: 32px 0px;
-    }
-
-    /* bannar section reponsiv */
-    .bannar {
-        background-image: none;
-    }
-
-    .bannar-text-content {
-        background-image: url('../images/Group\ 14.png');
-        background-repeat: no-repeat;
-        width: 80%;
-        height: 700px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+/* we are gamer section style here */
+.we-are-gamer {
+    background-color: rgba(255, 66, 165, 0.03);
 }
 
-/* for tab */
-@media screen and (min-width:577px) and (max-width:768px) {
+.gamer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 95px 0px;
+}
 
-    /* commone style */
-    .nav-bar {
-        flex-direction: column;
-    }
+.gamer-image img {
+    width: 100%;
+}
 
-    .bannar-content {
-        flex-direction: column-reverse;
-    }
+.gamer-text-content {
+    text-align: right;
+    width: 40%;
+}
 
-    /* nav section responsiv */
-    .nav {
-        box-shadow: none;
-    }
+.gamer-text-title {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 30px;
 
-    .logo {
-        margin-bottom: 32px;
-    }
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
-    /* bannar section reponsiv */
+.gamer-text-descriptoon {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 
+.Our-purpose {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+}
 
-    .bannar {
-        background-image: none;
-    }
+.unleash {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
 
-    .bannar-text-content {
-        background-image: url('../images/Group\ 14.png');
-        background-repeat: no-repeat;
-        width: 70%;
-        height: 700px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+/* Online Games section */
+.online-games{
+    margin-top: 120PX;
+}
+.online-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
 
+.funny-videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 48px;
+}
+
+.card-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    width: 100%;
+}
+.card{
+    padding-bottom: 24px;
+}
+.box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-description {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.effect {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0B0223;
+    border-radius: 16px;
+    transition: 0.3 ease;
+}
+
+.icon {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+}
+
+.fa-play-circle {
+    margin-bottom: 20px;
+}
+
+.icon i,
+.icon p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.box:hover .effect {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.box:hover .icon {
+    color: #ffffff;
+    opacity: 1;
 }

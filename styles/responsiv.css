@@ -1,0 +1,128 @@
+/* responsiv style here */
+
+/* for mobile media query */
+@media screen and (max-width:576px) {
+
+    /* commone */
+    .main-container {
+        max-width: 1140px;
+        margin: auto;
+    }
+
+    header
+    {
+        padding: 0px 10px;
+    }
+
+    .nav-bar,
+    .menu-item,
+    .gamer-content {
+        flex-direction: column;
+    }
+
+    .bannar-content {
+        flex-direction: column-reverse;
+    }
+
+    /* nav section resposniv */
+    .nav {
+        box-shadow: none;
+    }
+
+    .menu {
+        margin: 32px 0px;
+    }
+
+    .menu li {
+        display: block;
+        text-align: center;
+        margin: 32px 0px;
+    }
+
+    /* bannar section reponsiv */
+    .bannar {
+        background-image: none;
+    }
+
+    .bannar-text-content {
+        background-image: url('../images/Group\ 14.png');
+        background-repeat: no-repeat;
+        width: 80%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* we are gamer */
+    .we-are-gamer{
+        background:none;
+    }
+    .gamer-text-content{
+        text-align: center;
+    }
+
+    /* online-games section */
+    .card-item {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+        width:100%;
+        justify-items: center;
+    }
+}
+
+/* for tab */
+@media screen and (min-width:577px) and (max-width:768px) {
+
+    /* commone style */
+    .nav-bar,
+    .gamer-content {
+        flex-direction: column;
+    }
+
+    .bannar-content {
+        flex-direction: column-reverse;
+    }
+
+    /* nav section responsiv */
+    .nav {
+        box-shadow: none;
+    }
+
+    .logo {
+        margin-bottom: 32px;
+    }
+
+    /* bannar section reponsiv */
+    .bannar {
+        background-image: none;
+    }
+
+    .bannar-text-content {
+        background-image: url('../images/Group\ 14.png');
+        background-repeat: no-repeat;
+        width: 70%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* we are gamer */
+    .we-are-gamer{
+        background:none;
+    }
+    .gamer-text-content{
+        text-align: center;
+    }
+
+    /* online-games section */
+    .card-item {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        width:100%;
+        justify-items: center;
+        
+    }
+
+}
