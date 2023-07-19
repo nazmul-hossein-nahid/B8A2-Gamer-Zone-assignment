@@ -360,3 +360,61 @@ a {
     left: -100px;
     bottom: -100px;
 }
+
+/* play game section */
+
+.play-game {
+    padding-top: 120px;
+    margin-bottom: 120px;
+}
+
+.play-game-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+
+.imags-2 {
+    position: relative;
+    width: 636px;
+    height: 650px;
+}
+
+.imags-2>img {
+    width: 100%;
+}
+
+.side-img-2 {
+    position: absolute;
+    right: -100px;
+    bottom: -100px;
+}
+
+.play-game-text-container {
+    text-align: left;
+}
+
+.play-title-2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.play-2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-description-2 {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-right: 100px;
+}
+
+
+
