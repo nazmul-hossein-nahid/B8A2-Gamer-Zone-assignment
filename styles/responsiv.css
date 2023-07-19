@@ -4,8 +4,10 @@
 @media screen and (max-width:576px) {
 
     /* commone */
-    .main-container {
-        max-width: 1140px;
+    .main-container,
+    .careers,
+    .footer {
+        width: 1140px;
         margin: auto;
     }
 
@@ -17,11 +19,14 @@
     .nav-bar,
     .menu-item,
     .gamer-content,
-    .instantly-play-container {
+    .instantly-play-container,
+    .career-container
+     {
         flex-direction: column;
     }
 
-    .bannar-content {
+    .bannar-content,
+    .play-game-container {
         flex-direction: column-reverse;
     }
 
@@ -52,15 +57,20 @@
     }
 
     /* we are gamer */
-    .we-are-gamer{
+    .we-are-gamer,
+    .icon-section{
         background:none;
     }
     .gamer-text-content,
-    .play-text-container{
+    .play-text-container,
+    .play-game-text-container,
+    .play-title-2{
         text-align: center;
     }
-    .play-description{
-        margin: 0;
+    .play-description,
+    .play-description-2
+    {
+        margin: 0 auto;
     }
     /* online-games section */
     .card-item {
@@ -72,19 +82,43 @@
     .card-description{
         width: 600px;
     }
+    .icons{
+        gap: 60px;
+    }
+
+    .footer-menu{
+     grid-template-columns: repeat(3,1fr);
+    }
+    .footer-icons{
+        grid-template-columns: repeat(3,50px);
+    }
+    .Terms-and-conditions{
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
 }
 
 /* for tab */
 @media screen and (min-width:577px) and (max-width:768px) {
 
     /* commone style */
+
+    .main-container,
+    .careers,
+    .footer {
+        width: 1140px;
+        margin: auto;
+    }
+
     .nav-bar,
     .gamer-content,
-    .instantly-play-container {
+    .instantly-play-container,
+    .career-container {
         flex-direction: column;
     }
 
-    .bannar-content {
+    .bannar-content,
+    .play-game-container {
         flex-direction: column-reverse;
     }
 
@@ -113,11 +147,13 @@
     }
 
     /* we are gamer */
-    .we-are-gamer{
+    .we-are-gamer,
+    .icon-section{
         background:none;
     }
     .gamer-text-content,
-    .play-text-container{
+    .play-text-container,
+    .play-game-text-container{
         text-align: center;
     }
 
@@ -128,8 +164,9 @@
         width:80%;
         margin: auto;
     }
-    .play-description{
-        margin: 0;
+    .play-description,
+    .play-description-2{
+        margin: 0 auto;
     }
 
 }
